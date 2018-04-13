@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    min-height: 20em;
+}
+
+header > div {
+    color: white;
+    padding: 1em 2em;
+    min-height: 20em;
+    background: linear-gradient(
+        RGBA(1, 87, 120, 1),
+        RGBA(1, 87, 120, 0.7),
+        RGBA(1, 87, 120, 0.7)
+    );
+}
+
+header h1 {
+    font-family: 'Share';
+    font-weight: normal;
+    float: left;
+    letter-spacing: 0.25em;
+}
+
+header li {
+    float: right;
+    margin: 0.5em 1em;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+header h2 {
+    text-align: center;
+    margin: 5em 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header h2 small {
+    text-transform: none;
+    font-size: 1.1rem;
+    font-weight: normal;
+    display: block;
+}
