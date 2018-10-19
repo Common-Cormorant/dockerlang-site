@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65em;
+}
+
 header {
     background-image: url('images/banner.jpg');
     background-size: cover;
@@ -16,9 +21,9 @@ header > div {
     padding: 1em 2em;
     min-height: 20em;
     background: linear-gradient(
-        RGBA(1, 87, 120, 1),
+        RGBA(1, 147, 150, 1),
         RGBA(1, 87, 120, 0.7),
-        RGBA(1, 87, 120, 0.7)
+        RGBA(1, 87, 100, 0.7)
     );
 }
 
@@ -49,6 +54,7 @@ header h2 {
     font-size: 3rem;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em
 }
 
 header h2 small {
@@ -56,4 +62,93 @@ header h2 small {
     font-size: 1.1rem;
     font-weight: normal;
     display: block;
+    letter-spacing: 0;
+    margin-top: 1.5em;
+}
+
+footer > div, .banner > div, #main {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: rgba(1, 140, 120, 1);
+    margin-top: 1px;
+    padding: 2em 0;
+    color: white;
+}
+
+.banner h2 {
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.banner p {
+    display: inline-block;
+}
+
+#main {
+    overflow: hidden;
+}
+
+#main div {
+    overflow: auto;
+}
+
+#main h2 {
+    font-family: 'Share', 'Open Sans', sans-serif;
+    margin-bottom: 1em;
+}
+
+.blurb {
+    margin: 2em 5em;
+    padding: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.blub h2 {
+    font-size: 2em;
+}
+
+.factoids h2 {
+    font-family: 'Share', 'Open Sans', sans-serif;
+    border-bottom: 1px solid #999;
+}
+
+.factoids {
+    margin: 2em auto;
+}
+.factoids div {
+    margin-right: 2.85em;
+    width: 21%;
+    float: left;
+}
+.factoids div:last-child {
+    margin-right: 1em;
+}
+
+.action {
+    margin-top: 7em;
+    margin-bottom: 1em;
+}
+
+.action a {
+    text-align: center;
+    width: 7em;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: rgba(1, 140, 120, 1);
+    font-family: 'Share';
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
+
+footer a {
+    color: #eee;
 }
